@@ -1,0 +1,33 @@
+{% extends 'base.html' %}
+{#{% block menu %}#}
+{#   <li><a href="{% url 'task_add' %}">Add task</a></li>#}
+{#{% endblock %}#}
+
+
+{% block content %}
+    <div class=".bg-light">
+    <h1>Гостева книга</h1>
+
+    {% for page in pages %}
+    <div class="guest_card card border-dark mb-3" style="max-width: 18rem;">
+      <div class="card-header">
+          <span>{{ page.author }}({{ page.email }})</span>
+          <span><i class="fas fa-edit"></i></span>
+          <span><i class="fas fa-external-link-alt"></i></span>
+      </div>
+      <div class="card-body text-dark">
+        <h5 class="card-title"></h5>
+        <p class="card-text">{{ page.note_text }}</p>
+      </div>
+    </div>
+    {% endfor %}
+
+{#    {% for page in pages %}#}
+{#        <div class="note">#}
+{#            <h2>{{ page.author }}({{ page.email }})</h2>#}
+{#            <p>{{ page.note_text }}</p>#}
+{#            <hr>#}
+{#        </div>#}
+{#    {% endfor %}#}
+    </div>
+{% endblock %}
