@@ -7,14 +7,14 @@
 
 {% block content %}
     <div class=".bg-light">
-    <h1>Гостева книга</h1>
+    <h1 class="main_title">Гостева книга</h1>
 
     {% for page in pages %}
-    <div class="guest_card card border-dark mb-3" style="max-width: 18rem;">
+    <div class="guest_card card border-dark mb-5" style="max-width: 18rem;">
       <div class="card-header">
           <span>{{ page.author }}({{ page.email }})</span>
-          <span><i class="fas fa-edit"></i></span>
-          <span><i class="fas fa-external-link-alt"></i></span>
+          <span><a href="{% url 'page_update' page.pk %}"><i class="fas fa-edit"></i></a></span>
+          <span><a href="{% url 'page_delete' page.pk %}"><i class="fas fa-external-link-alt"></i></a></span>
       </div>
       <div class="card-body text-dark">
         <h5 class="card-title"></h5>
