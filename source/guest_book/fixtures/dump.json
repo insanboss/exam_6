@@ -1,0 +1,92 @@
+[
+{
+  "model": "guest_book.page",
+  "pk": 1,
+  "fields": {
+    "author": "Ronaldo",
+    "email": "ronaldo@gmail.com",
+    "note_text": "One of the best footballers in the world",
+    "created_at": "2021-03-06T09:00:05.720Z",
+    "updated_at": "2021-03-06T09:00:05.720Z",
+    "status": "active"
+  }
+},
+{
+  "model": "guest_book.page",
+  "pk": 2,
+  "fields": {
+    "author": "Miracle",
+    "email": "amer_al_barkawi@gmail.com",
+    "note_text": "One of the best dota players in the world",
+    "created_at": "2021-03-06T09:01:40.190Z",
+    "updated_at": "2021-03-06T09:01:40.190Z",
+    "status": "active"
+  }
+},
+{
+  "model": "guest_book.page",
+  "pk": 3,
+  "fields": {
+    "author": "OG",
+    "email": "og@gmail.com",
+    "note_text": "The best dota team in the world",
+    "created_at": "2021-03-06T09:02:15.640Z",
+    "updated_at": "2021-03-06T09:02:15.640Z",
+    "status": "active"
+  }
+},
+{
+  "model": "guest_book.page",
+  "pk": 4,
+  "fields": {
+    "author": "Jennifer_connely",
+    "email": "jeni@gmail.com",
+    "note_text": "Very beautiful woman, i would say the most beautiful woman in the world",
+    "created_at": "2021-03-06T09:03:12.301Z",
+    "updated_at": "2021-03-06T09:03:12.301Z",
+    "status": "active"
+  }
+},
+{
+  "model": "guest_book.page",
+  "pk": 5,
+  "fields": {
+    "author": "Pepe",
+    "email": "pepe@gmail.com",
+    "note_text": "Very rude football player, shame on him",
+    "created_at": "2021-03-06T09:04:17.264Z",
+    "updated_at": "2021-03-06T09:04:17.264Z",
+    "status": "blocked"
+  }
+},
+{
+  "model": "guest_book.page",
+  "pk": 6,
+  "fields": {
+    "author": "Solo",
+    "email": "solo@gmail.com",
+    "note_text": "322 player :))))) XDDDDDD",
+    "created_at": "2021-03-06T09:04:51.730Z",
+    "updated_at": "2021-03-06T09:04:51.730Z",
+    "status": "blocked"
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 1,
+  "fields": {
+    "password": "pbkdf2_sha256$216000$AdR3gQe53kPe$H3llkWb85mHkMlDkVLqyBFFGpXNLV+bxUKlbyA47Lv4=",
+    "last_login": "2021-03-06T08:34:44.351Z",
+    "is_superuser": true,
+    "username": "insanboss",
+    "first_name": "",
+    "last_name": "",
+    "email": "insanboss@gmail.com",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2021-03-06T08:32:33.037Z",
+    "groups": [],
+    "user_permissions": []
+  }
+}
+]
