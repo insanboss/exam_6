@@ -7,7 +7,7 @@ status_choices = [('active', 'Активно'), ('blocked', 'Заблокиро�
 class Page(models.Model):
     author = models.CharField(max_length=100, null=False, blank=False, verbose_name='Автор')
     email = models.EmailField(max_length=50, null=False,  blank=False, verbose_name='email')
-    note_text = models.TextField(null=True, blank=True, verbose_name='Дата')
+    note_text = models.TextField(null=True, blank=True, verbose_name='Текст записи')
     created_at = models.DateTimeField(auto_now_add=True, verbose_name='Время создания')
     updated_at = models.DateTimeField(auto_now=True, verbose_name='Время редактирования')
     status = models.CharField(max_length=50, null=False, blank=False, choices=status_choices, default='active', verbose_name='status')
